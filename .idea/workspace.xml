@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9f65529-9068-4998-8c0d-813036507230" name="Changes" comment="Java Advanced : Initialisation du projet">
-      <change afterPath="$PROJECT_DIR$/src/io/NomPrenomReaderIO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ressources/nom.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ressources/prenom.txt" afterDir="false" />
+    <list default="true" id="d9f65529-9068-4998-8c0d-813036507230" name="Changes" comment="Java Advanced : Lecture et ouverture du fichier">
+      <change afterPath="$PROJECT_DIR$/src/io/Run.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/UtilisateurWriter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FormationData/Personne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FormationData/Personne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FormationData/Stagiaire.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FormationData/Stagiaire.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/NomPrenomReaderIO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/NomPrenomReaderIO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,17 +35,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/home/amine/Documents/dev/Languages/Java/Java_Advanced/src/ressources"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/amine/Documents/dev/Languages/Java/Java_Advanced/src/ressources&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/ressources" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Run" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.Run" />
+      <module name="Java_Advanced" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Run" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -65,7 +83,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652697797520</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Java Advanced : Lecture et ouverture du fichier">
+      <created>1652704226296</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1652704226296</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -81,6 +106,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Java Advanced : Initialisation du projet" />
-    <option name="LAST_COMMIT_MESSAGE" value="Java Advanced : Initialisation du projet" />
+    <MESSAGE value="Java Advanced : Lecture et ouverture du fichier" />
+    <option name="LAST_COMMIT_MESSAGE" value="Java Advanced : Lecture et ouverture du fichier" />
   </component>
 </project>
