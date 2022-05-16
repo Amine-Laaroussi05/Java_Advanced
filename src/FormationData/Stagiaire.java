@@ -2,7 +2,7 @@ package FormationData;
 
 import java.util.Date;
 
-public class Stagiaire {
+public class Stagiaire extends Personne{
 
     /**
      * Attributes
@@ -43,6 +43,7 @@ public class Stagiaire {
      * @param dtNaissance : Date
      */
     public Stagiaire(Date dtNaissance) {
+        super();
         this.dtNaissance = dtNaissance;
     }
 
@@ -57,6 +58,7 @@ public class Stagiaire {
      * @param formateur : Formateur
      */
     public Stagiaire(Date dtNaissance, Formateur formateur) {
+        super();
         this.dtNaissance = dtNaissance;
         this.setFormateur(formateur);
     }

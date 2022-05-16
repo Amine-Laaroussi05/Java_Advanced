@@ -13,8 +13,8 @@ public abstract class Personne {
     private String email;
     private Adresse adresse;
 
-
-
+    public Personne() {
+    }
 
 
     /**
