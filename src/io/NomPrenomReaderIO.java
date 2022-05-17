@@ -25,7 +25,7 @@ public class NomPrenomReaderIO {
 
 
     /**
-     * Indique le chemin d'acces d emes fichiers
+     * Indique le chemin d'accées de mes fichiers
      * @param aRout : String le chemin racine
      * @exception IOException si un problème survient
      */
@@ -55,7 +55,7 @@ public class NomPrenomReaderIO {
             fileReader = new FileReader(monFichier);
             bufferedReader = new BufferedReader(fileReader);
 
-            // traitement de ma lecture
+            // traitement de la lecture
             String ligne;
             do{
                 ligne = bufferedReader.readLine();

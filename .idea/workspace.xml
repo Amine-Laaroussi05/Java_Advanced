@@ -4,11 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9f65529-9068-4998-8c0d-813036507230" name="Changes" comment="Java Advanced : Lecture et ouverture du fichier">
-      <change afterPath="$PROJECT_DIR$/src/io/Run.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/io/UtilisateurWriter.java" afterDir="false" />
+    <list default="true" id="d9f65529-9068-4998-8c0d-813036507230" name="Changes" comment="Java Advanced : Ecriture du fichier">
+      <change afterPath="$PROJECT_DIR$/src/Dao/AdresseDaoFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Dao/FormateurDaoFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Dao/IDAOAdresse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Dao/IDAOFormateur.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Dao/IDAOMatiere.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Dao/IDAOStagiaire.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Dao/IDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Dao/MatiereDaoFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Dao/StagiaireDaoFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DaoDemo/IDAOVoiture.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DaoDemo/IDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DaoDemo/VoitureDaoFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/Voiture.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/io/NomPrenomReaderIO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/NomPrenomReaderIO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/UtilisateurWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/UtilisateurWriter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +31,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -53,7 +66,7 @@
       <module name="Java_Advanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.*" />
+          <option name="PATTERN" value="DaoDemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -63,7 +76,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Run" />
+        <item itemvalue="Application.io.Run" />
       </list>
     </recent_temporary>
   </component>
@@ -90,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652704226296</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Java Advanced : Ecriture du fichier">
+      <created>1652720194960</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1652720194960</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -107,6 +127,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Java Advanced : Initialisation du projet" />
     <MESSAGE value="Java Advanced : Lecture et ouverture du fichier" />
-    <option name="LAST_COMMIT_MESSAGE" value="Java Advanced : Lecture et ouverture du fichier" />
+    <MESSAGE value="Java Advanced : Ecriture du fichier" />
+    <option name="LAST_COMMIT_MESSAGE" value="Java Advanced : Ecriture du fichier" />
   </component>
 </project>

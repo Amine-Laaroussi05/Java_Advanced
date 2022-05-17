@@ -57,7 +57,7 @@ public class UtilisateurWriter {
         Random randomPrenom = new Random();
         Random randomGenre = new Random();
 
-        // Préparer mon fichiers de sortie, mon writer et mon buffer
+        // Préparer mon fichier de sortie, mon writer et mon buffer
         FileOutputStream fos = null;
         OutputStreamWriter osw = null; // celui qui va écrire en flux de sortie
         BufferedWriter bufferedWriter = null;
@@ -75,7 +75,7 @@ public class UtilisateurWriter {
                 String prenom = prenoms.get(randomPrenom.nextInt(prenoms.size()));
                 String genre = randomGenre.nextBoolean()? "Mm": "Mr";
                 StringBuilder ligne = new StringBuilder();
-                ligne.append(i+1).append(UtilisateurWriter.SEPARATEUR); // séparateur pour passer à la colonn suivante
+                ligne.append(i+1).append(UtilisateurWriter.SEPARATEUR); // séparateur pour passer à la colonne suivante
                 ligne.append(genre).append(UtilisateurWriter.SEPARATEUR);
                 ligne.append(nom).append(UtilisateurWriter.SEPARATEUR);
                 ligne.append(prenom).append(nl);
